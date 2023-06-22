@@ -1,0 +1,19 @@
+{
+  "name": "biktikbeserver",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
+  "main": "(index.js) server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "author": "dct",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.4",
+    "negotiator": "^0.6.3",
+    "sequelize": "^6.32.0"
+  }
+}
